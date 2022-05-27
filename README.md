@@ -19,7 +19,7 @@ Update the `script.js` to get prediction from your own API hosted on GCP (make s
 ```js
 // script.js
 
-const taxiFareApiUrl = 'https://YOUR_API_URL/predict';
+const taxiFareApiUrl = 'https://taxifareimage-svyrdptvta-ew.a.run.app/predict';
 ```
 
 Hint: alternatively, you may use this Le Wagon Prediction API if you do not have one in production:
@@ -35,7 +35,7 @@ _Note: the following setup steps are optional as you can use Mapbox credentials 
 
 ```js
 //...
-mapboxgl.accessToken = 'YOUR_MAPBOX_API_ACCESS_TOKEN';
+mapboxgl.accessToken = 'pk.eyJ1IjoicGllcnJlbW91c25pZXIiLCJhIjoiY2wzbzg0eG1yMDFjMzNobzh6azhzZWp2OSJ9.HZkIYN7s90lOwzzBgRJQ9w';
 ````
 
 ## Local development
